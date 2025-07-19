@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="js.js"></script>
     <link rel="stylesheet" href="styles.css" type="text/css" />
     <title>ROCKpaperSCISSORS</title>
     <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
@@ -20,9 +19,9 @@
 
         <article id="bot">
           <div id="botonesJuego">
-            <button id="bot1" onclick="rock()">Rock 🪨</button>
-            <button id="bot2" onclick="paper()">Paper 📋</button>
-            <button id="bot3" onclick="scissors()">Scissors ✂️</button>
+            <button class="choice" id="bot1" onclick="play(1)">Rock 🪨</button>
+            <button class="choice" id="bot2" onclick="play(2)">Paper 📋</button>
+            <button class="choice" id="bot3" onclick="play(3)">Scissors ✂️</button>
           </div>
         </article>
 
@@ -36,5 +35,6 @@
         <p id="dom2"></p>
       </article>
     </section>
+    <script src="js.js"></script>
   </body>
 </html>
