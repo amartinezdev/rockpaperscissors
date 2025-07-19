@@ -1,0 +1,88 @@
+*{
+    font-family: Open Sans;
+    font-weight: bolder;
+    
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    margin-top: 150px;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(circle at center in hsl longer hue, #969393, #f2f2f2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #333
+  }
+
+.fila{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: 50px;
+}
+
+#player{
+    padding:50px;
+    color:#333;
+}
+
+#bot{
+   margin: 50px;
+}
+
+#bot1, #bot2, #bot3{
+    color:white;
+    height: 35px;
+    width: 100px;
+    background-color: #333;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}
+
+#botonesJuego.disabled button:hover {
+outline: 0px;
+  }
+
+button:hover {
+    outline: 2px solid rgb(158, 250, 235); /* Alternativa accesible para enfoque */
+}
+
+#reiniciar{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#machine{
+    padding:50px;
+    color:#333
+}
+
+.bo5{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

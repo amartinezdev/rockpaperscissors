@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js.js"></script>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <title>ROCKpaperSCISSORS</title>
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors game!</h1>
+    </header>
+    <section>
+      <div class="fila">
+        <article id="player">
+          <p id="playerScore">Your Score:</p>
+        </article>
+
+        <article id="bot">
+          <div id="botonesJuego">
+            <button id="bot1" onclick="rock()">Rock 🪨</button>
+            <button id="bot2" onclick="paper()">Paper 📋</button>
+            <button id="bot3" onclick="scissors()">Scissors ✂️</button>
+          </div>
+        </article>
+
+        <article id="machine">
+          <p id="machineScore">Machine Score:</p>
+        </article>
+      </div>
+
+      <article id="info">
+        <p id="dom"></p>
+        <p id="dom2"></p>
+      </article>
+    </section>
+  </body>
+</html>
